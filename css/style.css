@@ -1,0 +1,962 @@
+
+/*header*/
+header{
+	position: fixed;
+	top:0;
+	width: 100%;
+	z-index: 1;
+}
+.header-top{
+	background: #58585A;
+	width: 100%;
+
+}
+.header-top:after{
+	content: "";
+	display:block;
+	clear: both;
+}
+
+
+.header-top ul{
+	float: right;
+	margin: 0;
+	padding: 0;
+
+}
+
+.header-top ul li{
+	list-style: none;
+	float: left;
+	display: inline-block;
+}
+.header-top ul li:hover a{
+	color:#ED1B24;
+}
+.header-top ul .nav-link{
+	color:#fff;
+	font-size: 12px;
+}
+.header-top ul li img {
+	width:20px; 
+	height:14px;"
+}
+.inline {
+	display: inline-block;
+	margin:-4%;	
+}
+.inline i{
+	color: #fff;
+	font-size: 14px;
+}
+
+
+.header-bottom {
+	background:#E0E0E0;
+}
+.header-bottom:after{
+	content: "";
+	display:block;
+	clear: both;
+}
+
+.buy-now a{
+	background-color: #C93632;
+	font-weight: bold;
+	color:#fff;
+	padding: 10px 25px;
+	text-align: center; 
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px grey;
+	margin-left:50px;
+	
+}
+.buy-now:hover a{
+	text-decoration: none;
+	color:#000;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #2E96ED;
+	font-size: 18px;
+	padding-right: 15px;
+	
+}
+
+
+/*banner*/
+.banner {
+	min-height: 350px;
+	margin-top: 8.4%;
+	background: url('../images/banner.jpg')no-repeat;
+    background-size: 100% 100%;
+	
+}
+
+
+/*features-top*/
+
+.features-top {
+	padding-top: 30px;
+	
+}
+.features-top .col-md-4{
+	
+	width: 100%;
+	float: left;
+}
+.features-top-image{
+	text-align: center;
+}
+.features-top-image img {
+	width: 40%;
+	height: 120px;
+}
+.features-top-content h3{
+	text-align: center;
+	
+}
+.features-top-content p {
+	font-size: 16px;
+	text-align: justify;
+}
+
+
+
+
+/*reasons_to_choose*/
+
+.reasons_to_choose {
+	padding-top: 20px;
+	clear: both;
+}
+.text-size{
+	transform: rotate(-30deg);
+	font-weight: bold;
+	font-size: 50px;
+	color:#C93632;
+	display: inline-block;
+	text-shadow: 5px 3px 4px #5dabcd;
+}
+.text-size2{
+	font-weight: bold;
+	font-size: 40px;
+	color:#C93632;
+	display: inline-block;
+	text-shadow: 5px 3px 4px #5dabcd;
+	margin-left: 10px;
+}
+
+.features-content{
+	clear: both;
+	padding-bottom: 15px;
+}
+.features-content h3{
+	font-size: 20px;
+}
+.features-content p{
+	font-size: 14px;
+}
+.features-icon img{
+	height: 65px;
+	width: 65px;
+	
+}
+
+
+.e-vpn-apps {
+	background:#DEE1E6;
+	padding: 25px 0 25px 0;
+}
+
+.features-icon i {
+	color: #00AEFF;
+	font-size: 30px;
+	text-align: center;
+	padding: 0 0 10px 0;
+}
+
+.features-icon {
+	text-align: center;
+}
+
+
+.see-all-app p{
+	font-size: 15px;
+}
+
+
+.see-all-app a{
+	text-decoration: none;
+}
+
+
+.see-all-app i{
+	padding-left: 15px;
+	font-size: 14px;
+}
+
+.e-VPN-app a{
+	text-decoration: none;
+}
+
+
+/*Easy-to-use-apps*/
+
+.Easy-to-use-apps-image{
+	float: left;
+	text-align: center;
+	
+}
+.Easy-to-use-apps-image img{
+	width: 100%;
+}
+.Easy-to-use-apps-content{
+	float: left;
+	text-align: justify;
+}
+.Easy-to-use-apps-content h2 {
+	padding-top:12%;
+}
+.Easy-to-use-apps-content p {
+	padding-top:3%;
+}
+.Easy-to-use-apps-content a {
+	padding-top:3%;
+}
+
+.Easy-to-use-apps-content a{
+	background-color: #C93632;
+	font-weight: bold;
+	color:#fff;
+	padding: 10px 25px;
+	text-align: center; 
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 3%;
+}
+.Easy-to-use-apps-content a:hover {
+	text-decoration: none;
+	color:#000;
+}
+
+
+/*Choose plan*/
+
+.Choose-plan {
+	clear: both;
+	padding: 3% 0 5% 0;
+}
+
+
+.Choose-plan .row {
+	background: #0077BF;
+	
+}
+.Choose-plan-button{
+	position: relative;
+	padding: 8% 3%;
+	color: #FFF;
+}
+
+
+.Choose-plan-button a{
+	position: absolute;
+	bottom:20%;
+	left: 30%;
+	background: #C93632;
+	padding: 3% 10%;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	display: inline-block;
+}
+.Choose-plan-button a:hover{
+	color:#000;
+}
+
+
+
+.cost{
+	color: #fff;
+	font-weight: bold;
+	font-size: 50px;
+	padding-left: 15%;
+}
+.year{
+	color: #fff;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.Choose-plan-button p{
+	color: #fff;
+	padding: 5% 15% 18% 15%;
+}
+
+
+
+.Choose-plan-button:after{
+	content: "";
+	position: absolute;
+	border-top: 10px solid #fff;
+	border-left: 10px solid #fff;
+	
+	top:10%;
+	left: 10%;
+	height: 65%;
+	width: 80%;
+	
+}
+
+
+.Choose-plan-button:before{
+	content: "";
+	position: absolute;
+	border-bottom: 10px solid #fff;
+	border-right: 10px solid #fff;
+	top:10%;
+	right: 10%;
+	height: 65%;
+	width: 10%;
+	
+}
+
+
+
+.features-of-Choose-plan {
+	padding: 3%;
+	color: #FFF;
+}
+
+
+.features-of-Choose-plan h2 {
+	
+	text-align: center;
+	padding: 4% 4% 0 4%;
+	color: #FFF;
+}
+
+
+.features-of-Choose-plan-content ul {
+	margin:0;
+	padding:0;
+}
+
+
+.features-of-Choose-plan-content {
+	padding: 0 0 5% 10%;
+}
+
+.features-of-Choose-plan-content li {
+	color: #fff;
+}
+
+.hide-desktop {
+	display: none;
+}
+
+/*location-map*/
+
+.map{
+	clear: both;
+}
+.location-map{
+	min-height: 400px;
+	background: url('../images/location_map1.png')no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.location-map-content{
+	padding: 5% 5% 5% 5%;
+}
+
+
+.VPN-countries {
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+.VPN-countries li{
+	float: left;
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+	
+}
+
+.VPN-countries li img{
+	width: 50px;
+	height: 40px;
+}
+
+.location-map-list{
+	padding: 0% 5% 5% 5%;
+	text-align: center;
+}
+.location-map-list a{
+	
+	text-decoration: none;
+}
+
+
+/*Support*/
+
+.Support{
+	padding: 2% 0;
+}
+.email-support{
+	float: left;
+	padding: 5%;
+	text-align: center;
+}
+.email-support img{
+	width: 40%;
+	height: 150px;
+}
+
+.email-support h2 {
+	padding-top: 5%;
+	text-align: center;
+}
+
+.email-support p {
+	padding-top:3%;
+	text-align: justify;
+}
+
+
+.email-support a{
+	background-color: #00AEFF;
+	font-weight: bold;
+	color:#fff;
+	padding: 10px 25px;
+	text-align: center; 
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 3%;
+}
+.email-support a:hover {
+	text-decoration: none;
+	color:#000;
+}
+
+
+
+.money-back-support{
+	float: left;
+	padding: 4%;
+	text-align: center;
+}
+.money-back-support img{
+	width: 40%;
+	height: 150px;
+}
+
+.money-back-support h2 {
+	padding-top: 5%;
+	text-align: center;
+}
+
+.money-back-support p {
+	padding-top:3%;
+	text-align: justify;
+}
+
+
+.money-back-support a{
+	background-color: #C93632;
+	font-weight: bold;
+	color:#fff;
+	padding: 10px 25px;
+	text-align: center; 
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 3%;
+}
+.money-back-support a:hover{
+	text-decoration: none;
+	color:#000;
+}
+
+/*user-experience*/
+
+.user-experience {
+	clear: both;
+	margin-top: 4%;
+	padding: 4% 4% 2% 4%;
+	
+}
+.user-experience-top h2{
+	text-align: center;
+}
+.user-experience-top p {
+	text-align: center;
+	padding-bottom: 4%;
+}
+.user-experience a {
+	text-decoration: none;
+	color: #000;
+}
+.user-image {
+	float: left;
+}
+.user-image img {
+	width: 50px;
+	height:50px;
+	border-radius: 50%;
+}
+.user-name {
+	float: left;
+}
+.user-name h5{
+	margin:0;
+	padding:0;
+}
+.user-name p{
+	margin:0;
+	padding:0;
+}
+
+.user-media {
+	float: right;
+}
+.user-media i{
+	font-size: 30px;
+	color:#0F75BC;
+}
+
+.user-comment {
+	clear: both;
+	padding-top: 3%;
+	text-align: justify;
+}
+
+
+
+/*website-unblocked*/
+
+.website-unblocked {
+	clear: both;
+	padding: 4% 0;
+}
+.website-unblocked h2{
+	text-align: center;
+	padding-bottom: 5%;
+}
+.website-unblocked-content{
+	float: left;
+	
+}
+
+.website-unblocked-content img{
+	width: 100%;
+	padding-bottom: 3%;
+}
+
+.unblocked {
+	padding-bottom: 2%;
+}
+
+/*footer*/
+
+
+.page-footer {
+	background: #58585A;
+	padding: 20px;
+}
+.page-footer  li{
+	text-align: justify;
+}
+.page-footer  li img{
+	width:25px;
+	height:25px;
+}
+
+.page-footer  li a {
+	color: #fff;
+}
+
+.page-footer  h5 {
+	color: #A9A9AB;
+	text-align: justify;
+}
+
+.page-footer  h4 {
+	color: #A9A9AB;
+}
+.copyright a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.copyright a:hover{
+	color: #349AEF;
+}
+
+
+
+
+/*media query*/
+
+@media (max-width: 576px){
+	.buy-now a{
+		box-shadow: 0 0 0;
+		width: 100%;
+		display: inline-block;
+		margin:0 0 15px 0;
+	}
+	
+	.banner {
+		min-height: 150px;
+		margin-top: 18.4%;
+	}
+	
+
+	
+}
+
+
+@media (max-width: 768px){
+	
+	.banner {
+		min-height: 200px;
+		margin-top: 14.4%;
+	}
+	
+	.buy-now a{
+		padding: 10px 10px;	
+	}
+	
+	.features-top-content h3{
+		font-size: 22px;
+		
+	}
+	.e-vpn-apps h2 {
+		font-size: 22px;
+	}
+	.text-size{
+		font-size: 40px;
+	}
+	.text-size2{
+		font-size: 30px;]
+	}
+	
+	
+	.Choose-plan-button{
+		padding: 15% 3%;
+	}
+
+	.Choose-plan-button a{
+		left: 24%;
+	}
+
+	
+	.VPN-countries li img{
+		width: 40px;
+		height: 30px;
+	}
+	.email-support img{
+		height: 120px;
+	}
+	.email-support h2 {
+		font-size: 26px;
+	}
+	.money-back-support img{
+		
+		height: 120px;
+	}
+	.money-back-support h2 {
+		font-size: 26px;
+	}
+	
+}
+
+
+@media (max-width: 320px){
+	.header-top {
+		display: none;
+	}
+	.banner {
+		min-height: 150px;
+		margin-top: 24.8%;
+		
+	}
+	.hide-mobile {
+		display: none;
+	}
+	.hide-desktop {
+		display: block;
+	}
+	.Choose-plan-button p{
+		padding: 5% 15% 22% 15%;
+	}
+	
+	.features-of-Choose-plan h2{
+		font-size: 25px;
+	}
+	
+	.location-map-content h3{
+		font-size: 20px;
+	}
+	.location-map-content p{
+		font-size: 15px;
+	}
+	
+	.VPN-countries li img{
+		width: 30px;
+		height: 20px;
+	}
+	
+	.email-support h2 {
+		font-size: 26px;
+	}
+	.email-support a {
+		width: 100%;
+	}
+	.email-support img{
+		
+		height: 120px;
+	}
+	.money-back-support h2 {
+		font-size: 26px;
+	}
+	.money-back-support a {
+		width: 100%;
+	}
+	.money-back-support img{
+		
+		height: 120px;
+	}
+	
+	.website-unblocked h2{
+		font-size: 25px;
+	}
+	
+}
+
+
+
+
+@media (max-width: 360px){
+	.header-top {
+		display: none;
+	}
+	.banner {
+		min-height: 150px;
+		margin-top: 21.8%;
+		
+	}
+	.hide-mobile {
+		display: none;
+	}
+	.hide-desktop {
+		display: block;
+	}
+	.Choose-plan-button p{
+		padding: 5% 15% 22% 15%;
+	}
+	
+	.features-of-Choose-plan h2{
+		font-size: 25px;
+	}
+	
+	.location-map-content h3{
+		font-size: 20px;
+	}
+	.location-map-content p{
+		font-size: 15px;
+	}
+	
+	.VPN-countries li img{
+		width: 30px;
+		height: 20px;
+	}
+	
+	.email-support h2 {
+		font-size: 26px;
+	}
+	.email-support a {
+		width: 100%;
+	}
+	.email-support img{
+		
+		height: 120px;
+	}
+	.money-back-support h2 {
+		font-size: 26px;
+	}
+	.money-back-support a {
+		width: 100%;
+	}
+	.money-back-support img{
+		
+		height: 120px;
+	}
+	
+	.website-unblocked h2{
+		font-size: 25px;
+	}
+	
+}
+
+
+@media (max-width: 411px){
+	.header-top {
+		display: none;
+	}
+	.banner {
+		min-height: 150px;
+		margin-top: 19%;
+		
+	}
+	
+	.text-size{
+		font-size: 40px;
+	}
+	.text-size2{
+		font-size: 30px;]
+	}
+
+	.hide-mobile {
+		display: none;
+	}
+	.hide-desktop {
+		display: block;
+	}
+	.Choose-plan-button p{
+		padding: 5% 15% 22% 15%;
+	}
+	
+	.features-of-Choose-plan h2{
+		font-size: 25px;
+	}
+	
+	.location-map-content h3{
+		font-size: 20px;
+	}
+	.location-map-content p{
+		font-size: 15px;
+	}
+	
+	.VPN-countries li img{
+		width: 30px;
+		height: 20px;
+	}
+	
+	.email-support h2 {
+		font-size: 26px;
+	}
+	.email-support a {
+		width: 100%;
+	}
+	.email-support img{
+		
+		height: 120px;
+	}
+	.money-back-support h2 {
+		font-size: 26px;
+	}
+	.money-back-support a {
+		width: 100%;
+	}
+	.money-back-support img{
+		
+		height: 120px;
+	}
+	
+	.website-unblocked h2{
+		font-size: 25px;
+	}
+	
+}
+
+
+
+
+
+@media (max-width: 414px){
+	.header-top {
+		display: none;
+	}
+	.banner {
+		min-height: 150px;
+		margin-top: 19%;
+		
+	}
+	
+	.text-size{
+		font-size: 40px;
+	}
+	.text-size2{
+		font-size: 30px;]
+	}
+
+	.hide-mobile {
+		display: none;
+	}
+	.hide-desktop {
+		display: block;
+	}
+	.Choose-plan-button p{
+		padding: 5% 15% 22% 15%;
+	}
+	
+	.features-of-Choose-plan h2{
+		font-size: 25px;
+	}
+	
+	.location-map-content h3{
+		font-size: 20px;
+	}
+	.location-map-content p{
+		font-size: 15px;
+	}
+	
+	.VPN-countries li img{
+		width: 30px;
+		height: 20px;
+	}
+	
+	.email-support h2 {
+		font-size: 26px;
+	}
+	.email-support a {
+		width: 100%;
+	}
+	.email-support img{
+		
+		height: 120px;
+	}
+	.money-back-support h2 {
+		font-size: 26px;
+	}
+	.money-back-support a {
+		width: 100%;
+	}
+	.money-back-support img{
+		
+		height: 120px;
+	}
+	
+	.website-unblocked h2{
+		font-size: 25px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
